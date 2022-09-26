@@ -8,3 +8,23 @@
     src: url('/src/styles/fonts/Helvetica.ttf') format('ttf');
   }
 }
+
+:root {
+  --primary-400: #240d57;
+  --primary-300: #501fc1;
+  --primary-200: #8456ec;
+  --primary-100: #e87bf8;
+  --secondary-300: #ccb6ff;
+  --secondary-200: #ede5ff;
+  --secondary-100: #f6f2ff;
+  --alert-400: #ffd7e0;
+  --alert-300: #e61445;
+  --alert-200: #d3ffe2;
+  --alert-100: #00805e;
+  --neutral-600: #4f4f4f;
+  --neutral-600: #828282;
+  --neutral-600: #bdbdbd;
+  --neutral-600: #e0e0e0;
+  --neutral-600: #f2f2f2;
+  --neutral-600: #bdbdbd;
+}
