@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/src/styles/fonts/Helvetica.ttf') format('ttf');
+  }
+}
