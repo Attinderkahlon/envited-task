@@ -1,8 +1,11 @@
 import Button from '../components/Button'
+import { useNavigate } from 'react-router-dom'
 
 export default function Homepage() {
+  const navigate = useNavigate()
+
   return (
-    <div className='flex bg-envited-secondary-100 min-h-screen pt-24 pb-10 justify-center'>
+    <div className='flex min-h-screen pt-24 pb-10 justify-center'>
       <div className='grid relative h-min gap-8 lg:w-full lg:h-auto xl:mx-96 lg:mx-52'>
         <div className='grid h-min ml-auto my-auto lg:w-80 justify-end gap-6'>
           <div className='grid gap-2 text-center lg:text-right'>
@@ -24,7 +27,10 @@ export default function Homepage() {
             className='w-44 sm:w-60 lg:w-auto mx-auto shadow-sm rounded-xl left-0 block lg:absolute lg:top-1/2 lg:transform lg:-translate-y-1/2'
           />
           <div className='lg:w-auto lg:ml-auto lg:mx-0 mx-auto'>
-            <Button onClick={() => console.log()} title='🎉 Create my event' />
+            <Button
+              onClick={() => navigate('/create')}
+              title='🎉 Create my event'
+            />
           </div>
         </div>
       </div>
